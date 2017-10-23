@@ -25,6 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'ci_reporter_test_unit', '~> 1.0'
   spec.add_development_dependency 'nokogiri', '~> 1.6'
 
-  spec.add_dependency 'simplecov', '~> 0.8'
-  spec.add_dependency 'json', '~> 1.8'
+  spec.add_dependency 'simplecov', '>= 0.15'
 end
